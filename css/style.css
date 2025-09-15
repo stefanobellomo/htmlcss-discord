@@ -244,3 +244,11 @@ select{
     background-color: #23272a;
     border: 1px solid #23272a;
 }
+
+.social{
+    color: #ffffff;
+}
+
+.fa{
+    padding: 0 7px 0 0;
+}
