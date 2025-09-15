@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-:root .container {
+:root 
+
+.container {
     max-width: 1080px;
     margin: auto;
     width: 80%;
@@ -12,11 +14,20 @@
 
 }
 
+.container-hd {
+    max-width: 1080px;
+    margin: auto;
+    width: 40%;
+    padding: 5rem 2rem;
+    font-size: 1.5rem;
+
+}
+
 .d-flex-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(170, 9, 250);
+   /* background-color: rgb(170, 9, 250);*/
 }
 
 .last-side {
@@ -50,75 +61,113 @@
     display: flex;
     align-items: center;
     margin: auto;
-    background-color: rgb(7, 207, 80);
+   /* background-color: rgb(7, 207, 80);*/
 }
 
 .debug * {
-    border: 1px solid rgb(0, 0, 0);
+    /*border: 1px solid rgb(0, 0, 0);*/
 }
 
 header {
-    background-color: aquamarine;
+    background-color: #3161e0;
     height: 4rem;
     display: flex;
     justify-content: space-between;
 }
 
+.jumbotron{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 600px;
+    padding: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 button {
-    background-color: brown;
-    height: 20px;
-    width: 100px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    padding: 7px;
+    
+}
+
+.tech-pa{
+    padding: 0 2rem;
+}
+
+.bg-wh {
+  color: #ffffff;
+}
+
+.bg-black{
+    color: rgb(0, 0, 0);
+
+}
+
+.bt-black{
+   background-color: #23272a;
+   color: #ffffff;
 }
 
 .logo {
-    height: 3rem;
+    
 }
 
 .flex-items {
     text-align: center;
-    padding: 20px 30px;
+    padding: 2rem;
+    
 }
 
 .main-header {
     padding: 2rem;
     text-align: center;
-    max-width: 100%;
+    color: #ffffff;
+    
 }
 
 /* img */
 
 .img-box {
-    height: 180px;
-    background-color: blue;
     margin: 0px 20px 0px 0px;
-    width: 60%;
+    width: 70%;
+    height: auto;
 }
 
 .img-box-central {
     width: 60%;
-    height: 180px;
+    /*height: 180px;*/
     margin: 0px 0px 0px 20px;
-    background-color: blue;
+   /* background-color: blue;*/
 }
 
 .img-box img {
     margin: 0px 20px 0px 0px;
-    background-color: rgb(35, 15, 15);
+    /*background-color: rgb(35, 15, 15);*/
 
 }
 
 .base-img {
-    background-color: blue;
-    height: 200px;
+   /* background-color: blue;*/
+   /* height: 200px;*/
     width: 100%;
     justify-content: center;
 
 }
 
-.flex-items-second {}
+.star{
+    background-image: url(../img/stars.svg);
+}
+
+.sp-ar {
+}
 
 section {
-    background-color: rgb(80, 38, 38);
+   /* background-color: rgb(80, 38, 38);*/
     padding: 20px 0;
 }
 
@@ -133,19 +182,20 @@ section {
 }
 
 h2 {
-    height: 50px;
+    /**/
     width: auto;
-    background-color: blueviolet;
+    margin-bottom: 1rem;
+    /*background-color: blueviolet;*/
 }
 
 .debug p {
-    background-color: rgb(157, 86, 0);
-    height: 130px;
+  /*  background-color: rgb(157, 86, 0);*/
+   /* height: 130px;*/
 }
 
 .t-width {
     width: 40%;
-    height: 180px;
+    font-size: 1.5rem;
 }
 
 footer {
