@@ -27,12 +27,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-   /* background-color: rgb(170, 9, 250);*/
 }
 
 .last-side {
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid #6e84d2;
 
 }
 
@@ -43,10 +43,13 @@
 
 .left-side {
     width: 25%;
+    color: #6e84d2;
 }
 
 .right-side {
     width: 20%;
+    margin: 0 10px;
+    padding: 0 15px;
 }
 
 .ff-flex {
@@ -55,19 +58,14 @@
 
 .f-flex {
     display: flex;
+
 }
 
 .d-flex {
     display: flex;
     align-items: center;
     margin: auto;
-   /* background-color: rgb(7, 207, 80);*/
 }
-
-.debug * {
-    /*border: 1px solid rgb(0, 0, 0);*/
-}
-
 header {
     background-color: #3161e0;
     height: 4rem;
@@ -84,19 +82,34 @@ header {
 
 a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
+    padding: 5px 0;
+}
+
+.ext{
+    padding: 20px;
 }
 
 button {
     background-color: #ffffff;
-    border: 1px solid #ffffff;
+    border: 0px solid #ffffff;
     border-radius: 20px;
     padding: 7px;
     
 }
 
+.butt{
+    background-color: #6e84d2;
+    color: #ffffff;
+}
+
 .tech-pa{
     padding: 0 2rem;
+}
+
+.bg-gb{
+    color: #ffffff;
+    background-color: #6e84d2;
 }
 
 .bg-wh {
@@ -140,20 +153,15 @@ button {
 
 .img-box-central {
     width: 60%;
-    /*height: 180px;*/
     margin: 0px 0px 0px 20px;
-   /* background-color: blue;*/
+  
 }
 
 .img-box img {
     margin: 0px 20px 0px 0px;
-    /*background-color: rgb(35, 15, 15);*/
-
 }
 
 .base-img {
-   /* background-color: blue;*/
-   /* height: 200px;*/
     width: 100%;
     justify-content: center;
 
@@ -161,13 +169,16 @@ button {
 
 .star{
     background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 320px;
+    padding: 10px;
 }
 
 .sp-ar {
 }
 
 section {
-   /* background-color: rgb(80, 38, 38);*/
     padding: 20px 0;
 }
 
@@ -182,15 +193,16 @@ section {
 }
 
 h2 {
-    /**/
     width: auto;
     margin-bottom: 1rem;
-    /*background-color: blueviolet;*/
 }
 
-.debug p {
-  /*  background-color: rgb(157, 86, 0);*/
-   /* height: 130px;*/
+h3{
+    color: #6e84d2;
+}
+
+.ph-sm{
+   
 }
 
 .t-width {
@@ -199,5 +211,13 @@ h2 {
 }
 
 footer {
-    background-color: rgb(144, 116, 116);
+    background-color: #23272a;
+}
+.small{
+    height: 15px;
+}
+
+.bg-gr{
+    background-color: #23272a;
+    color: #ffffff;
 }
