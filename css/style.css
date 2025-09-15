@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root .container {
+    max-width: 1080px;
+    margin: auto;
+    width: 80%;
+    padding: 1rem;
+
+}
+
+.d-flex-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(170, 9, 250);
+}
+
+.last-side {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.fff-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-side {
+    width: 25%;
+}
+
+.right-side {
+    width: 20%;
+}
+
+.ff-flex {
+    display: flex;
+}
+
+.f-flex {
+    display: flex;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(7, 207, 80);
+}
+
+.debug * {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+header {
+    background-color: aquamarine;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: brown;
+    height: 20px;
+    width: 100px;
+}
+
+.logo {
+    height: 3rem;
+}
+
+.flex-items {
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.main-header {
+    padding: 2rem;
+    text-align: center;
+    max-width: 100%;
+}
+
+/* img */
+
+.img-box {
+    height: 180px;
+    background-color: blue;
+    margin: 0px 20px 0px 0px;
+    width: 60%;
+}
+
+.img-box-central {
+    width: 60%;
+    height: 180px;
+    margin: 0px 0px 0px 20px;
+    background-color: blue;
+}
+
+.img-box img {
+    margin: 0px 20px 0px 0px;
+    background-color: rgb(35, 15, 15);
+
+}
+
+.base-img {
+    background-color: blue;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.flex-items-second {}
+
+section {
+    background-color: rgb(80, 38, 38);
+    padding: 20px 0;
+}
+
+.down-sect {
+    padding: 20px 0;
+    text-align: center;
+    max-width: 100%;
+}
+
+.h-main {
+    padding: 0.5rem 0;
+}
+
+h2 {
+    height: 50px;
+    width: auto;
+    background-color: blueviolet;
+}
+
+.debug p {
+    background-color: rgb(157, 86, 0);
+    height: 130px;
+}
+
+.t-width {
+    width: 40%;
+    height: 180px;
+}
+
+footer {
+    background-color: rgb(144, 116, 116);
+}
