@@ -16,6 +16,10 @@ body{
 
 }
 
+.bg-base{
+    background-color: #f6f6f6;
+}
+
 .container-hd {
     max-width: 1080px;
     margin: auto;
@@ -78,7 +82,6 @@ header {
 .jumbotron{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    height: 600px;
     padding: 2rem;
 }
 
@@ -177,11 +180,12 @@ button {
     padding: 10px;
 }
 
-.sp-ar {
+.h-150 {
+    height: 150px;
 }
 
 section {
-    padding: 20px 0;
+    padding: 0px 0;
 }
 
 .down-sect {
@@ -222,4 +226,21 @@ footer {
 .bg-gr{
     background-color: #23272a;
     color: #ffffff;
+}
+
+.wave{
+    background-repeat: repeat;
+    width: 100%;
+  /*  background-color: #ffffff;*/
+    opacity: 0.03;
+}
+
+.ww{
+    background: #f6f6f6;
+    filter: invert(1);
+}
+
+select{
+    background-color: #23272a;
+    border: 1px solid #23272a;
 }
